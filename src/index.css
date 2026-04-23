@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  @apply bg-background text-text overflow-x-hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  @apply bg-surface/40 backdrop-blur-xl border border-white/5 shadow-glass;
+}
+
+.glass-card {
+  @apply glass rounded-xl transition-all duration-500 hover:bg-surfaceHighlight hover:shadow-neon-primary hover:-translate-y-2 border border-white/5;
+}
+
+/* Premium Gradients & Text */
+/* Single Neon Text */
+.text-neon {
+  @apply text-primary drop-shadow-neon;
+}
+
+/* Button with Single Neon Glow */
+.btn-primary {
+  @apply bg-primary text-black font-bold shadow-neon-primary-strong hover:shadow-neon-primary-stronger hover:bg-white hover:scale-90 transition-all duration-300;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-surfaceHighlight rounded-full border-2 border-background hover:bg-primary/60;
+}
+

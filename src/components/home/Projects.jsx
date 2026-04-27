@@ -17,10 +17,10 @@ const Projects = () => {
         },
         {
             _id: '2',
-            title: 'E-Commerce Dashboard',
-            description: 'Full-stack admin dashboard for managing products and orders.',
+            title: 'Multi-Vendor E-Commerce Website',
+            description: 'MERN stack web application for buyers and sellers.',
             image: 'https://placehold.co/600x400/2c2c2c/FFF?text=Dashboard',
-            tags: ['MERN', 'Redux', 'Charts'],
+            tags: ['MERN', 'Axios', 'Bootstrap'],
             category: 'Fullstack',
             liveLink: '#',
             githubLink: '#'

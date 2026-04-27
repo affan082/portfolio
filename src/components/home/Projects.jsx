@@ -7,13 +7,13 @@ const Projects = () => {
     const projects = [
         {
             _id: '1',
-            title: 'Luxury Portfolio',
-            description: 'A premium portfolio website with dark mode and glassmorphism.',
-            image: 'https://placehold.co/600x400/1a1a1a/FFF?text=Portfolio',
-            tags: ['React', 'Tailwind', 'Framer Motion'],
+            title: 'Taskly - Task Management App',
+            description: 'A responsive task manager with filtering and localStorage persistence.',
+            image: '../../../public/images/TasklyScreen2.png',
+            tags: ['React', 'Bootstrap', 'LocalStorage'],
             category: 'Frontend',
-            liveLink: '#',
-            githubLink: '#'
+            liveLink: 'https://taskly-affan-08.vercel.app/',
+            githubLink: 'https://github.com/affan082/Taskly'
         },
         {
             _id: '2',
@@ -27,28 +27,10 @@ const Projects = () => {
         }
     ];
 
-    const [filter, setFilter] = useState('All');
-
-    const filteredProjects = filter === 'All' ? projects : projects.filter(p => p.category === filter);
-    const categories = ['All', 'Frontend', 'Backend', 'Fullstack'];
-
     return (
-        <Section id="projects" title="Featured Projects" >
-            {/* Filters */}
-            <div className="flex justify-center gap-4 mb-12 flex-wrap">
-                {categories.map(cat => (
-                    <button
-                        key={cat}
-                        onClick={() => setFilter(cat)}
-                        className={`px-6 py-2 rounded-full text-sm font-medium transition-all ${filter === cat ? 'bg-primary text-black shadow-[0_0_15px_rgba(212,175,55,0.4)]' : 'bg-surface text-gray-400 hover:text-white border border-white/5'}`}
-                    >
-                        {cat}
-                    </button>
-                ))}
-            </div>
-
+        <Section id="projects" title="Featured Projects" >          
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {filteredProjects.map((project) => (
+                {projects.map((project) => (
                     <motion.div
                         layout
                         initial={{ opacity: 0 }}

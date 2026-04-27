@@ -9,7 +9,7 @@ const Projects = () => {
             _id: '1',
             title: 'Taskly - Task Management App',
             description: 'A responsive task manager with filtering and localStorage persistence.',
-            image: '../../../public/images/TasklyScreen2.png',
+            image: '/images/TasklyScreen2.png',
             tags: ['React', 'Bootstrap', 'LocalStorage'],
             category: 'Frontend',
             liveLink: 'https://taskly-affan-08.vercel.app/',

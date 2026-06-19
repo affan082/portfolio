@@ -17,9 +17,9 @@ const Projects = () => {
         },
         {
             _id: '2',
-            title: 'Multi-Vendor E-Commerce Website',
+            title: 'ByteBazaar Multi-Vendor E-Commerce Website',
             description: 'MERN stack web application for buyers and sellers.',
-            image: 'https://placehold.co/600x400/2c2c2c/FFF?text=Dashboard',
+            image: 'https://placehold.co/600x400/2c2c2c/FFF?text=ByteBazaar',
             tags: ['MERN', 'Axios', 'Bootstrap'],
             category: 'Fullstack',
             liveLink: '#',

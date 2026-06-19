@@ -4,7 +4,7 @@ import { FaGraduationCap, FaCode, FaUserTie } from 'react-icons/fa';
 const About = () => {
     const education = [
         {
-            year: '2021 – 2026 (Expected)',
+            year: '2021 – 2025',
             degree: 'BS Information Technology',
             institution: 'University of the Punjab',
         },

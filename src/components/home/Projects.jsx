@@ -7,14 +7,16 @@ const Projects = () => {
     const projects = [
         {
             _id: '1',
-            title: 'Taskly - Task Management App',
-            description: 'A responsive task manager with filtering and localStorage persistence.',
-            image: '/images/TasklyScreen2.png',
-            tags: ['React', 'Bootstrap', 'LocalStorage'],
-            category: 'Frontend',
-            liveLink: 'https://taskly-affan-08.vercel.app/',
-            githubLink: 'https://github.com/affan082/Taskly'
+            title: 'FineFit',
+            description: 'A minimalist clothing e-commerce website',
+            image: '/images/FineFit Screen.png',
+            tags: ['React', 'Node', 'Express', 'Mongoose', 'Bootstrap'],
+            category: 'Fullstack',
+            liveLink: 'https://finefit-ecommerce.vercel.app/',
+            githubLink: 'https://github.com/affan082/FineFit_EcommerceStore'
         },
+      
+
         {
             _id: '2',
             title: 'ByteBazaar Multi-Vendor E-Commerce Website',
@@ -24,6 +26,16 @@ const Projects = () => {
             category: 'Fullstack',
             liveLink: '#',
             githubLink: '#'
+        },
+          {
+            _id: '2',
+            title: 'Taskly - Task Management App',
+            description: 'A responsive task manager with filtering and localStorage persistence.',
+            image: '/images/TasklyScreen2.png',
+            tags: ['React', 'Bootstrap', 'LocalStorage'],
+            category: 'Frontend',
+            liveLink: 'https://taskly-affan-08.vercel.app/',
+            githubLink: 'https://github.com/affan082/Taskly'
         }
     ];
 

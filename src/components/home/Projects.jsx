@@ -12,7 +12,7 @@ const Projects = () => {
             image: '/images/FineFit Screen.png',
             tags: ['React', 'Node', 'Express', 'Mongoose', 'Bootstrap'],
             category: 'Fullstack',
-            liveLink: 'https://finefit-ecommerce.vercel.app/',
+            liveLink: 'https://fine-fit-ecommerce-store.vercel.app/',
             githubLink: 'https://github.com/affan082/FineFit_EcommerceStore'
         },
       

@@ -24,8 +24,8 @@ const Projects = () => {
             image: '/images/Bytebazaar Home.png',
             tags: ['React', 'Node', 'Express', 'Mongoose', 'Axios', 'Bootstrap'],
             category: 'Fullstack',
-            liveLink: '#',
-            githubLink: '#'
+            liveLink: 'https://byte-bazaar-neon.vercel.app/',
+            githubLink: 'https://github.com/affan082/ByteBazaar'
         },
           {
             _id: '2',

@@ -5,8 +5,19 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
     const projects = [
+       
         {
             _id: '1',
+            title: 'ByteBazaar Multi-Vendor E-Commerce Website',
+            description: 'MERN stack web application for buyers and sellers.',
+            image: '/images/Bytebazaar Home.png',
+            tags: ['React', 'Node', 'Express', 'Mongoose', 'Axios', 'Bootstrap'],
+            category: 'Fullstack',
+            liveLink: 'https://byte-bazaar-neon.vercel.app/',
+            githubLink: 'https://github.com/affan082/ByteBazaar'
+        },       
+        {
+            _id: '2',
             title: 'FineFit',
             description: 'A minimalist clothing e-commerce website',
             image: '/images/FineFit Screen.png',
@@ -15,20 +26,8 @@ const Projects = () => {
             liveLink: 'https://fine-fit-ecommerce-store.vercel.app/',
             githubLink: 'https://github.com/affan082/FineFit_EcommerceStore'
         },
-      
-
         {
-            _id: '2',
-            title: 'ByteBazaar Multi-Vendor E-Commerce Website',
-            description: 'MERN stack web application for buyers and sellers.',
-            image: '/images/Bytebazaar Home.png',
-            tags: ['React', 'Node', 'Express', 'Mongoose', 'Axios', 'Bootstrap'],
-            category: 'Fullstack',
-            liveLink: 'https://byte-bazaar-neon.vercel.app/',
-            githubLink: 'https://github.com/affan082/ByteBazaar'
-        },
-          {
-            _id: '2',
+            _id: '3',
             title: 'Taskly - Task Management App',
             description: 'A responsive task manager with filtering and localStorage persistence.',
             image: '/images/TasklyScreen2.png',
